@@ -55,7 +55,7 @@ public class Patient extends User {
 
     public void addAppointmentDoctors(Doctor doctor, Date date, String time) {
         AppointmentDoctor appointmentDoctor = new AppointmentDoctor(this, doctor);
-        appointmentDoctor.schedule(date,time);
+        appointmentDoctor.schedule(date, time);
         appointmentDoctors.add(appointmentDoctor);
     }
 

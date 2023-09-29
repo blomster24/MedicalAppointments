@@ -1,6 +1,6 @@
 package model;
 
-public class Nurse extends  User{
+public class Nurse extends User {
 
     private String speciality;
 

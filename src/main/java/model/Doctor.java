@@ -83,7 +83,7 @@ public class Doctor extends User {
             return date;
         }
 
-        public String getDate(){
+        public String getDate() {
             return format.format(date);
         }
 

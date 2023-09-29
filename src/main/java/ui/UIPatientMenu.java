@@ -2,7 +2,6 @@ package ui;
 
 import model.Doctor;
 
-import javax.print.Doc;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Scanner;
